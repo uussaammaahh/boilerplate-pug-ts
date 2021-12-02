@@ -1,0 +1,22 @@
+// Primary Colors
+$themeColor: #FF8E4C;
+$themeColorSecondary: #053c6d;
+
+// Secondary Colors
+$black: #000000;
+$white: #ffffff;
+$grey: #707070;
+$disabled: #a2a2a2;
+$red: #ff0000;
+$fontFamily: "Noto Sans";
+
+// Font weights
+$light: 300;
+$normal: normal;
+$bold: bold;
+
+// Mixins
+$baseSize: 16;
+@function size($target, $context: $baseSize) {
+    @return ($target / $context) * 1em;
+}
